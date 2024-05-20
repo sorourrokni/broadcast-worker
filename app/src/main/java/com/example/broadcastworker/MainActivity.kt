@@ -8,6 +8,7 @@ import androidx.compose.material3.Surface
 import androidx.work.*
 import com.example.broadcastworker.ui.airplaneBluetooth.BluetoothAirplaneWorker
 import com.example.broadcastworker.ui.internet.NetworkStatusScreen
+import com.example.broadcastworker.ui.log.LogList
 import java.util.concurrent.TimeUnit
 
 class MainActivity : ComponentActivity() {
@@ -18,6 +19,7 @@ class MainActivity : ComponentActivity() {
             MaterialTheme {
                 Surface {
                     NetworkStatusScreen()
+                    LogList(context = this)
                 }
             }
         }
