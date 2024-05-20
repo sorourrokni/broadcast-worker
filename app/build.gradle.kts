@@ -60,6 +60,7 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation("androidx.compose.runtime:runtime-livedata:1.4.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
+    implementation ("androidx.work:work-runtime-ktx:2.7.1")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
